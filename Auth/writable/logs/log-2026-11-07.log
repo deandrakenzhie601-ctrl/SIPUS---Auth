@@ -1,0 +1,203 @@
+DEBUG - 2026-11-07 02:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 02:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 04:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-07 12:10:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:200
+Stack trace:
+#0 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(200): mysqli->real_connect()
+#1 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(550): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Database.php(76): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Config.php(111): CodeIgniter\Database\Database->loadForge()
+#4 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Seeder.php(103): CodeIgniter\Database\Config::forge()
+#5 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(71): CodeIgniter\Database\Seeder->__construct()
+#6 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run()
+#7 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+#8 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#9 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Boot.php(166): CodeIgniter\Boot::runCommand()
+#10 C:\xampp2\htdocs\sipus\spark(87): CodeIgniter\Boot::bootSpark()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:230
+Stack trace:
+#0 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(550): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Database.php(76): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Config.php(111): CodeIgniter\Database\Database->loadForge()
+#3 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Seeder.php(103): CodeIgniter\Database\Config::forge()
+#4 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(71): CodeIgniter\Database\Seeder->__construct()
+#5 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run()
+#6 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+#7 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#8 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Boot.php(166): CodeIgniter\Boot::runCommand()
+#9 C:\xampp2\htdocs\sipus\spark(87): CodeIgniter\Boot::bootSpark()
+#10 {main}
+CRITICAL - 2026-11-07 12:10:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: CLI, Route: db:seed/AdminUserSeeder]
+in SYSTEMPATH\Database\BaseConnection.php on line 601.
+ 1 SYSTEMPATH\Database\Database.php(76): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(111): CodeIgniter\Database\Database->loadForge()
+ 3 SYSTEMPATH\Database\Seeder.php(103): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\Commands\Database\Seed.php(71): CodeIgniter\Database\Seeder->__construct()
+ 5 SYSTEMPATH\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run()
+ 6 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+ 7 SYSTEMPATH\Boot.php(444): CodeIgniter\CLI\Console->run()
+ 8 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+ 9 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+ERROR - 2026-11-07 12:11:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:200
+Stack trace:
+#0 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(200): mysqli->real_connect()
+#1 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(550): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Database.php(76): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Config.php(111): CodeIgniter\Database\Database->loadForge()
+#4 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Seeder.php(103): CodeIgniter\Database\Config::forge()
+#5 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(71): CodeIgniter\Database\Seeder->__construct()
+#6 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run()
+#7 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+#8 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#9 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Boot.php(166): CodeIgniter\Boot::runCommand()
+#10 C:\xampp2\htdocs\sipus\spark(87): CodeIgniter\Boot::bootSpark()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:230
+Stack trace:
+#0 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(550): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Database.php(76): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Config.php(111): CodeIgniter\Database\Database->loadForge()
+#3 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Database\Seeder.php(103): CodeIgniter\Database\Config::forge()
+#4 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(71): CodeIgniter\Database\Seeder->__construct()
+#5 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run()
+#6 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+#7 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#8 C:\xampp2\htdocs\sipus\vendor\codeigniter4\framework\system\Boot.php(166): CodeIgniter\Boot::runCommand()
+#9 C:\xampp2\htdocs\sipus\spark(87): CodeIgniter\Boot::bootSpark()
+#10 {main}
+CRITICAL - 2026-11-07 12:11:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: CLI, Route: db:seed/AdminUserSeeder]
+in SYSTEMPATH\Database\BaseConnection.php on line 601.
+ 1 SYSTEMPATH\Database\Database.php(76): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(111): CodeIgniter\Database\Database->loadForge()
+ 3 SYSTEMPATH\Database\Seeder.php(103): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\Commands\Database\Seed.php(71): CodeIgniter\Database\Seeder->__construct()
+ 5 SYSTEMPATH\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run()
+ 6 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+ 7 SYSTEMPATH\Boot.php(444): CodeIgniter\CLI\Console->run()
+ 8 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+ 9 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+ERROR - 2026-11-07 12:14:28 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 294.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(294): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1744): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Database\Seeds\AdminUserSeeder.php(37): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\AdminUserSeeder->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call()
+ 8 SYSTEMPATH\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run()
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+10 SYSTEMPATH\Boot.php(444): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+ERROR - 2026-11-07 12:14:47 --> Unknown column 'password' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 294.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(294): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2362): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Database\Seeds\AdminUserSeeder.php(40): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\AdminUserSeeder->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call()
+ 8 SYSTEMPATH\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run()
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+10 SYSTEMPATH\Boot.php(444): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+DEBUG - 2026-11-07 12:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 12:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-07 13:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,12 @@
+ERROR - 2026-10-17 03:00:10 --> Can't create database 'sipus_db'; database exists
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 294.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(294): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\Forge.php(236): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Commands\Database\CreateDatabase.php(136): CodeIgniter\Database\Forge->createDatabase()
+ 6 SYSTEMPATH\CLI\Commands.php(72): CodeIgniter\Commands\Database\CreateDatabase->run()
+ 7 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+ 8 SYSTEMPATH\Boot.php(444): CodeIgniter\CLI\Console->run()
+ 9 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+10 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
